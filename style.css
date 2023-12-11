@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Young Serif', serif;
+}
+
+section {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url(land.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+nav {
+    height: 80px;
+}
+
+nav h1{
+    float: left; 
+    padding-top: 30px;
+    color: skyblue;
+    text-decoration: underline;
+  }
+
+nav ul{
+    float: right;
+    line-height: 90px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+   }
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: navy;
+   padding: 5px;
+}
+
+nav ul li a:hover{
+    background-color: #eb7620;
+    transition: 0.5s ease;
+}
+
+nav ul li .active{
+    background-color: #eb7620;
+}
+
+.article{
+    width: 60%;
+    margin: 0 auto;
+    transition: translative(25vh);
+    margin-top: 110px;
+}
+
+.article h1{
+    font-size: 36px;
+    color: white;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.article p{
+    font-size: 18px;
+    color: yellow;
+    margin-bottom: 50px;
+}
+
+.article .btn{
+    color: black;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15048;    
+    padding: 12px 25px;
+}
+
+.article .btn:hover{
+    background-color: #4399fa;
+    transition: 0.5s ease;
+}
